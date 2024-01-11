@@ -110,3 +110,4 @@ app.post("/new-message", async function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
   console.log("Telegram app listening on http://localhost:3000");
 });
+
